@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bregalda Odontologia</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        .contact-info, .form-section {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button[type="reset"] {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre a Clínica</a></li>
+                <li><a href="service.html">Horário de Atendimento</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="logo">
+            <img src="/imgs/contato.jpg" alt="Uma mulher sorrindo com dentes bem brancos e alinhados">
+        </section>
+
+        <div class="contact-info">
+            <h2>Telefones de Contato</h2>
+            <p>Celular: (XX) XXXX-XXXX</p>
+            <p>WhatsApp: (XX) XXXXX-XXXX</p>
+            <h2>Endereço</h2>
+            <p>Rua Exemplo, 123, Bairro, Cidade, Estado, CEP: 00000-000</p>
+        </div>
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1721677407199!5m2!1spt-BR!2sbr!6m8!1m7!1s9rx22kjkhYcyHw-57Fen_Q!2m2!1d-26.89372034857295!2d-53.17130065112357!3f33.4178744030835!4f0.3309578587745534!5f0.7820865974627469"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="form-section">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <main>
+
+            <footer>
+                <section class="contact">
+                    <h2>Entre em contato conosco</h2>
+                    <p>Telefone: <a href="tel:+551234567890">+55 12 3456-7890</a></p>
+                </section>
+
+                <section class="social-media">
+                    <h2>Siga-nos nas redes sociais</h2>
+                    <p><a href="https://facebook.com" target="_blank">Facebook</a></p>
+                    <p><a href="https://instagram.com" target="_blank">Instagram</a></p>
+                    <p><a href="https://youtube.com" target="_blank">YouTube</a></p>
+                    <p><a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
+                </section>
+            </footer>
+</body>
+
+</html>
